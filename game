@@ -1,0 +1,48 @@
+puts "welcome to Arkham asylum Santa!!"
+puts "what would you like to do"
+puts "Options: explore, fight , leave , surprise"
+choice = gets.chomp
+case choice
+when "explore"
+	puts " you found a new evidence of a plan to brake out "
+	puts " do you want to investegate the plan more "
+	puts "options: yes , no "
+	plan = gets.chomp
+	case plan
+	when "yes"
+		puts "great job you foiled Holiday's plan to escape"
+	when "no"
+		puts"you have been arested for with holding evadence
+		and helping a him escape...GAME OVER"
+	end
+when "fight"
+	puts "Bane is more than happy to accept the challenge"
+	puts "what is your move"
+	puts "options: punch , kick "
+	bain = gets.chomp
+	case bain
+	when "punch"
+		puts "you caught him by surprise and he hits the floor head first and dies of an aneurysm "
+		puts "you have now been arrested for use of excesive force...GAME OVER"
+	when "kick"
+		puts "you got him right in the crotch. This gives you time to get out before things get crazy"
+		puts " you made it back home and are now drinking dark dog. Good job Level 1 complet"
+	end
+when "leave"
+	puts "really?!? don't be such a pussy"
+	puts "Are you sure?"
+	puts "options: yes , no"
+	dip = gets.chomp
+	case dip
+	when "yes"
+		puts "on the way out you were killed by an inmate"
+	when "no"
+		puts "sucks you still got killed for even thinking about quiting..END GAME"
+		
+	end
+when "surprise"
+	puts "Batman came out of nowhere and beat the literal shit out of you...GAME OVER"
+else
+	puts "stop trying to brake the game asshole"
+
+end
